@@ -1,0 +1,13 @@
+{
+    "type": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "username": "sa",
+    "password": "Admin@123(!)Password",
+    "database": "dowhile",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true,
+    "extra": {
+        "trustServerCertificate": true
+    }
+  }
